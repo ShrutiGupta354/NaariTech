@@ -1,0 +1,71 @@
+.home-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.home-main-section .img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: strech;
+    justify-content: flex-end;
+}
+
+.home-main-section .MonitorGirl {
+    background-image: url(images/GirlWithMonitor.svg);
+    flex-grow: 1;
+    max-height: 50vh;
+    min-width: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.home-main-section .center-logo{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: strech;
+    justify-content: flex-end;
+}
+
+.home-main-section .NTLogo {
+    background-image: url(images/NT.png);
+    flex-grow: 1;
+    max-height: 80vh;
+    min-width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.home-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: left;
+}
+
+@media (max-width: 800px) {
+    .home-main-section .img-wrapper{
+        display: none;
+    }
+
+    .home-main-section{
+        justify-content: center;
+    }
+
+}
+
+.home-page-circle {
+    transform: translate(-20%, -10%);
+    position: absolute;
+    width: 55vw;
+    height: 40vw;
+    border-radius: 50%;
+    background-color: rgba(148, 73, 73, .1);
+    z-index: -1;
+}

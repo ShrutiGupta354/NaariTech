@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #C7BCBC;
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    color: black;
+    min-height: 100vh;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: left;
+    font-size: 1rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.main-nav ul, .footer-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a, .footer-nav a, .brand-logo-name a{
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover, .footer-nav a:hover, .brand-logo-name a:hover {
+    color: #f0e6e6
+}
+
+.main-header, .main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header{
+    height: 70px;
+    background-color: #803535;
+}
+
+.main-footer {
+    height: 70px;
+    background-color: #AB9393;
+}
+
+.main-footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container {
+    max-width: 3000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    flex-grow: 1;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: white;
+    background-color: #1762A7;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2180d8;
+}
+
+.btn:focus {
+    background-color: #2796ff;
+}

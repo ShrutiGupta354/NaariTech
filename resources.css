@@ -1,0 +1,94 @@
+.resources-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.resources-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: left;
+}
+
+.resources-main-section .resouces-image-1{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: strech;
+    justify-content: flex-end;
+}
+
+.resources-main-section .four-hands {
+    background-image: url(images/FourHands.svg);
+    flex-grow: 1;
+    max-height: 20vh;
+    min-width: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.resources-main-section .resouces-image-2{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: strech;
+    justify-content: flex-end;
+}
+
+.resources-main-section .reading-book {
+    background-image: url(images/ReadingBook.svg);
+    flex-grow: 1;
+    max-height: 30vh;
+    min-width: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.resources-main-section .resouces-image-3{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: strech;
+    justify-content: flex-end;
+}
+
+.resources-main-section .standing-on-book {
+    background-image: url(images/StandingOnBook.svg);
+    flex-grow: 1;
+    max-height: 30vh;
+    min-width: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.resources-main-section .resouces-image-4{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: strech;
+    justify-content: flex-end;
+}
+
+.resources-main-section .three-people{
+    background-image: url(images/ThreePeople.svg);
+    flex-grow: 1;
+    max-height: 20vh;
+    width: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+@media (max-width: 800px) {
+    .resources-main-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
